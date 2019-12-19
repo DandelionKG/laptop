@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Arkhip';
+    src: url('../fonts/Arkhip.eot');
+    src: url('../fonts/Arkhip.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Arkhip.woff2') format('woff2'),
+        url('../fonts/Arkhip.woff') format('woff'),
+        url('../fonts/Arkhip.ttf') format('truetype'),
+        url('../fonts/Arkhip.svg#Arkhip') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Qanelas';
+    src: url('../fonts/Qanelas-Regular.eot');
+    src: url('../fonts/Qanelas-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Qanelas-Regular.woff2') format('woff2'),
+        url('../fonts/Qanelas-Regular.woff') format('woff'),
+        url('../fonts/Qanelas-Regular.ttf') format('truetype'),
+        url('../fonts/Qanelas-Regular.svg#Qanelas-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	/* overflow-y: hidden; */
+}
+.header {
+	background-image: url(../img/bg.png);
+/* 	padding-bottom: 16rem; */
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+              min-height: 100vh;
+}
+.header h1 {
+	margin-top: 8rem;
+	font-family: 'Qanelas' sans-serif;
+	color: #fff;
+	text-align: center;
+}
+.header span {
+	font-family: 'Arkhip' ;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.logo {
+	padding-top: 4rem;
+	margin-left: 3rem;
+}
+.buttons {
+	text-align: center;
+	margin-top: 80px;
+}
+.buttons button {
+	text-align: center;
+	background-color: #000;
+	transition: all 0.3s;
+	border-radius: 20px;
+	border: 5px solid #fff;
+}
+.buttons button:hover{
+	background-color: #fff;
+	transition: all 0.3s;
+}
+.buttons button:focus{
+ 	outline: none;
+}
+.buttons button:hover > a{
+	color: #000;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+/* .link_btn:hover {
+	color: #fff;
+} */
+/* .buttons a:hover{
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: all 0.2s;
+} */
+.buttons a {
+	font-family: 'Qanelas' sans-serif;
+	font-size: 40px;
+	color: #fff;
+	transition: all 0.3s;
+}
+/* .header-btn:hover {
+	background-color: #000;
+	transition: all 0.4s;
+	color: #fff;
+} */
+.header-btn {
+	padding: 1rem;
+
+}
+.left-btn {
+	padding-left: 7rem;
+	padding-right: 7rem;
+	margin-right: 1rem;
+}
+.right-btn {
+	padding-right: 6rem;
+	padding-left: 6rem;
+	margin-left: 1rem;
+}
+.footer p{
+	color: #fff;
+	font-family: 'Qanelas' sans-serif;
+	font-size: 26px;
+}
+.footer {
+	background-color: #000;
+	padding-bottom: 5px;
+}
